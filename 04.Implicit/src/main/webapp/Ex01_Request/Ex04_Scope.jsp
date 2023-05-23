@@ -42,7 +42,5 @@
 		application :
 		<%=application.getAttribute("application")%></p>
 	<jsp:forward page="Ex04_ScopeResult.jsp"></jsp:forward>
-
-
 </body>
 </html>
