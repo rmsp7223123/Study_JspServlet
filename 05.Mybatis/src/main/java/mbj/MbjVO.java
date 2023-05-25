@@ -8,6 +8,11 @@ public class MbjVO {
 	private String field1;
 	private int field2;
 
+	public MbjVO(String field1, int field2) {
+		this.field1 = field1;
+		this.field2 = field2;
+	}
+
 	public String getField1() {
 		return field1;
 	}
