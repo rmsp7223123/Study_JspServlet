@@ -1,11 +1,14 @@
 package Test04Java;
 
 public class MBJPrinterExample {
-	public static void main(String[] args) { // 출력 결과
-		Printer.println(50); // 10
-		Printer.println(true); // true
-		Printer.println(5.7); // 5.7
-		Printer.println("홍길동"); // 홍길동
+	public static void main(String[] args) {
+		int x = 1;
+		int y = 2;
+		boolean result = (x+y)<1;
+		System.out.println(result);
+		double a = 100.5;
+		double aa = -a;
+		System.out.println(aa);
 	}
 
 }
